@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Double:wght@100..900&display=swap');
+body{
+    text-align: center;
+    background-color: rgb(75, 9, 119);
+    font-family: "Bitcount Prop Double", system-ui;
+    font-optical-sizing: auto;
+}
+
+#titolo{
+    color: white;
+    font-size: 3em;
+}
+#button{
+   background-color: rgb(154, 80, 168);
+   color: white;
+   margin-top: 2em;
+   padding: 10px 15px;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   display: inline-block;
+}
+#tabellone{
+    /* background-color: crimson; */
+    /* border: 1px solid black; */
+}
+.caselle{
+    background-color: crimson;
+    display: inline-block;
+    border: 1px solid black;
+    width: 5.8em;
+    height: 5.8em;
+    font-size: 1.2em;
+}
+#btnRis{
+    display: inline-block;
+    background-color: crimson;
+    border-radius: 5px;
+    padding: 1.3em;
+    font-size: 1.5em;
+     margin-top: 2em;
+} 
+.evidenziata{
+    background-color: rgba(220, 20, 60, 0.212);
+    font-weight: bold;
+}
