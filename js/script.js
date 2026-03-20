@@ -5,7 +5,7 @@ const btnRis= document.getElementById('btnRis')
 for(i = 0;i<76;i++){
     const div= document.createElement('div')
     div.classList.add('caselle')
-    div.innerText= i+1
+    div.innerText= i + 1
     tabella.appendChild(div)
 }
 button.addEventListener('click', function(){
